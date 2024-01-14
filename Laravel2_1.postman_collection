@@ -12,9 +12,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}user/:id",
+					"raw": "{{URL}}people/:id",
 					"host": [
-						"{{URL}}user"
+						"{{URL}}people"
 					],
 					"path": [
 						":id"
@@ -35,9 +35,9 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}users",
+					"raw": "{{URL}}peoples",
 					"host": [
-						"{{URL}}users"
+						"{{URL}}peoples"
 					]
 				}
 			},
@@ -79,9 +79,9 @@
 					]
 				},
 				"url": {
-					"raw": "{{URL}}user/",
+					"raw": "{{URL}}people/",
 					"host": [
-						"{{URL}}user"
+						"{{URL}}people"
 					],
 					"path": [
 						""
@@ -105,9 +105,9 @@
 					}
 				},
 				"url": {
-					"raw": "{{URL}}user/:id",
+					"raw": "{{URL}}people/:id",
 					"host": [
-						"{{URL}}user"
+						"{{URL}}people"
 					],
 					"path": [
 						":id"
@@ -128,9 +128,9 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{URL}}user/:id",
+					"raw": "{{URL}}people/:id",
 					"host": [
-						"{{URL}}user"
+						"{{URL}}people"
 					],
 					"path": [
 						":id"
