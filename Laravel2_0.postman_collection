@@ -11,21 +11,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": {
-					"raw": "{{URL}}people/:id",
-					"host": [
-						"{{URL}}people"
-					],
-					"path": [
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "15"
-						}
-					]
-				}
+				"url": "{{URL}}people/15"
 			},
 			"response": []
 		},
@@ -73,7 +59,7 @@
 						}
 					]
 				},
-				"url": "{{URL}}people/"
+				"url": "{{URL}}people"
 			},
 			"response": []
 		},
@@ -91,21 +77,7 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "{{URL}}people/:id",
-					"host": [
-						"{{URL}}people"
-					],
-					"path": [
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "1"
-						}
-					]
-				}
+				"url": "{{URL}}people/2"
 			},
 			"response": []
 		},
@@ -114,21 +86,7 @@
 			"request": {
 				"method": "DELETE",
 				"header": [],
-				"url": {
-					"raw": "{{URL}}people/:id",
-					"host": [
-						"{{URL}}people"
-					],
-					"path": [
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": "200"
-						}
-					]
-				}
+				"url": "{{URL}}people/5"
 			},
 			"response": []
 		}
