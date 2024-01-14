@@ -7,9 +7,9 @@ Route::get('/', function () {
         'message' => 'Hello World!',
     ], 200);
 });
-
-Route::get('/users', UsersController::class . '@index');
-Route::get('/user/{id}', UsersController::class . '@show');
-Route::post('/user', UsersController::class . '@store');
-Route::put('/user/{id}', UsersController::class . '@update');
-Route::delete('/user/{id}', UsersController::class . '@destroy');
+$student_data = "/gondzik/310568";
+Route::get("$student_data/users", UsersController::class . '@index');
+Route::get("$student_data/user/{id}", UsersController::class . '@show');
+Route::post("$student_data/user", UsersController::class . '@store');
+Route::put("$student_data/user/{id}", UsersController::class . '@update');
+Route::delete("$student_data/user/{id}", UsersController::class . '@destroy');

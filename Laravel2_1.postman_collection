@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "GET ALL",
+			"name": "GET USER BY ID",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -30,7 +30,7 @@
 			"response": []
 		},
 		{
-			"name": "GetUserById",
+			"name": "Get ALL",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -138,7 +138,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": "201"
+							"value": "200"
 						}
 					]
 				}
@@ -146,10 +146,30 @@
 			"response": []
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
 	"variable": [
 		{
 			"key": "URL",
-			"value": "http://127.0.0.1:8000/"
+			"value": "http://127.0.0.1:8000/gondzik/310568/"
 		}
 	]
 }
